@@ -1,0 +1,52 @@
+[
+{
+"id_produto": 1,
+"produto": "Emprestimo FGTS",
+"categoria": "Emprestimo",
+"descricao": "Antecipação do saque-aniversário do FGTS.",
+"taxa_juros": "1,29% a 1,49% a.m",
+"valor_minimo": 100,
+"valor_maximo": 20000,
+"parcelas_maximas": 12
+},
+{
+"id_produto": 2,
+"produto": "Emprestimo Consignado",
+"categoria": "Emprestimo",
+"descricao": "Parcelas descontadas diretamente da folha de pagamento, INSS ou servidores públicos.",
+"taxa_juros": "1.8% a 2,1% a.m",
+"valor_minimo": 1000,
+"valor_maximo": 50000,
+"parcelas_maximas": 84
+},
+{
+"id_produto": 3,
+"produto": "Emprestimo Pessoal",
+"categoria": "Emprestimo",
+"descricao": "Crédito sem necessidade de garantia.",
+"taxa_juros": "4.50% a 8,08% a.m",
+"valor_minimo": 100,
+"valor_maximo": 30000,
+"parcelas_maximas": 48
+},
+{
+"id_produto": 4,
+"produto": "Financiamento Veicular",
+"categoria": "Financiamento",
+"descricao": "Financiamento para aquisição de veículos novos ou usados.",
+"taxa_juros": "1,63% a 2,08% a.m",
+"valor_minimo": 10000,
+"valor_maximo": 150000,
+"parcelas_maximas": 60
+},
+{
+"id_produto": 5,
+"produto": "Financiamento Residencial",
+"categoria": "Financiamento",
+"descricao": "Crédito destinado à compra de imóvel residencial.",
+"taxa_juros": "0,91% a 1,04% a.m",
+"valor_minimo": 50000,
+"valor_maximo": 1000000,
+"parcelas_maximas": 420
+}
+]

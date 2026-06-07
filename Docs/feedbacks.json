@@ -1,0 +1,245 @@
+
+[
+{
+"id_feedback": 1,
+"id_cliente": 1,
+"data": "2026-01-10",
+"canal": "App",
+"produto": "Emprestimo FGTS",
+"nota": 5,
+"comentario": "Dinheiro caiu na conta muito rápido."
+},
+
+{
+"id_feedback": 2,
+"id_cliente": 2,
+"data": "10/01/2026",
+"canal": "Chat",
+"produto": "FGTS",
+"nota": 4,
+"comentario": "Contratação simples."
+},
+
+{
+"id_feedback": 3,
+"id_cliente": 3,
+"data": "2026/01/11",
+"canal": "Aplicativo",
+"produto": "Emp. FGTS",
+"nota": 2,
+"comentario": "Não consegui entender as condições."
+},
+
+{
+"id_feedback": 4,
+"id_cliente": 4,
+"data": "12-01-2026",
+"canal": "APP",
+"produto": "Emprestimo Consignado",
+"nota": 5,
+"comentario": "Taxa menor que outros bancos."
+},
+
+{
+"id_feedback": 5,
+"id_cliente": 5,
+"data": "2026-01-13",
+"canal": "Chat",
+"produto": "Consignado",
+"nota": 3,
+"comentario": "Atendimento demorou para responder."
+},
+
+{
+"id_feedback": 6,
+"id_cliente": 6,
+"data": "2026-01-14",
+"canal": "Agencia",
+"produto": "Emprestimo Consignado",
+"nota": null,
+"comentario": "Processo burocrático."
+},
+
+{
+"id_feedback": 7,
+"id_cliente": 7,
+"data": "15/01/2026",
+"canal": "App",
+"produto": "Emprestimo Pessoal",
+"nota": 1,
+"comentario": "Juros muito altos."
+},
+
+{
+"id_feedback": 8,
+"id_cliente": 1,
+"data": "2026-01-16",
+"canal": "APP",
+"produto": "Emp Pessoal",
+"nota": 2,
+"comentario": "Limite aprovado abaixo do esperado."
+},
+
+{
+"id_feedback": 9,
+"id_cliente": 16,
+"data": "2026-01-17",
+"canal": "Chat",
+"produto": "Emprestimo Pessoal",
+"nota": 5,
+"comentario": "Recebi o dinheiro no mesmo dia."
+},
+
+{
+"id_feedback": 10,
+"id_cliente": 10,
+"data": "18/01/2026",
+"canal": "App",
+"produto": "Financiamento Veicular",
+"nota": 4,
+"comentario": "Simulação muito fácil."
+},
+
+{
+"id_feedback": 11,
+"id_cliente": 15,
+"data": "2026-01-18",
+"canal": "Aplicativo",
+"produto": "Financ. Veicular",
+"nota": 2,
+"comentario": "Parcela ficou acima do esperado."
+},
+
+{
+"id_feedback": 12,
+"id_cliente": 9,
+"data": "2026-01-19",
+"canal": "Chat",
+"produto": "Veicular",
+"nota": 5,
+"comentario": "Aprovação rápida."
+},
+
+{
+"id_feedback": 13,
+"id_cliente": 2,
+"data": "20/01/2026",
+"canal": "App",
+"produto": "Financiamento Residencial",
+"nota": 5,
+"comentario": "Consegui realizar o sonho da casa própria."
+},
+
+{
+"id_feedback": 14,
+"id_cliente": 13,
+"data": "2026-01-21",
+"canal": "CHAT",
+"produto": "Fin. Residencial",
+"nota": 2,
+"comentario": "Muita documentação solicitada."
+},
+
+{
+"id_feedback": 15,
+"id_cliente": 14,
+"data": "21/01/2026",
+"canal": "Agência",
+"produto": "Residencial",
+"nota": null,
+"comentario": "Null"
+},
+
+{
+"id_feedback": 16,
+"id_cliente": 15,
+"data": "2026-01-22",
+"canal": "App",
+"produto": "Emprestimo FGTS",
+"nota": 5,
+"comentario": "Processo rápido e sem complicações."
+},
+{
+"id_feedback": 17,
+"id_cliente": 3,
+"data": "22/01/2026",
+"canal": "CHAT",
+"produto": "FGTS",
+"nota": 1,
+"comentario": "Não consegui concluir a contratação pelo aplicativo."
+},
+{
+"id_feedback": 18,
+"id_cliente": 2,
+"data": "2026/01/23",
+"canal": "Aplicativo",
+"produto": "Emprestimo Consignado",
+"nota": 4,
+"comentario": "Condições melhores do que eu esperava."
+},
+{
+"id_feedback": 19,
+"id_cliente": 6,
+"data": "24-01-2026",
+"canal": "Agencia",
+"produto": "Consignado",
+"nota": 2,
+"comentario": "Demora excessiva para análise da proposta."
+},
+{
+"id_feedback": 20,
+"id_cliente": 8,
+"data": "2026-01-25",
+"canal": "App",
+"produto": "Emp Pessoal",
+"nota": 3,
+"comentario": "Valor aprovado foi razoável, mas os juros poderiam ser menores."
+},
+{
+"id_feedback": 21,
+"id_cliente": 10,
+"data": "25/01/2026",
+"canal": "Chat",
+"produto": "Emprestimo Pessoal",
+"nota": 5,
+"comentario": "Atendimento excelente e liberação rápida."
+},
+{
+"id_feedback": 22,
+"id_cliente": 2,
+"data": "2026-01-26",
+"canal": "APP",
+"produto": "Financ. Veicular",
+"nota": 1,
+"comentario": "Sistema apresentou erro durante a simulação."
+},
+{
+"id_feedback": 23,
+"id_cliente": 11,
+"data": "26/01/2026",
+"canal": "Aplicativo",
+"produto": "Financiamento Veicular",
+"nota": 4,
+"comentario": "Gostei da transparência das parcelas."
+},
+{
+"id_feedback": 24,
+"id_cliente": 10,
+"data": "2026-01-27",
+"canal": "CHAT",
+"produto": "Fin. Residencial",
+"nota": null,
+"comentario": "Ainda estou aguardando retorno sobre minha solicitação."
+},
+{
+"id_feedback": 25,
+"id_cliente": 6,
+"data": "27/01/2026",
+"canal": "App",
+"produto": "Residencial",
+"nota": 5,
+"comentario": "Todo o processo foi muito bem explicado."
+}
+
+]
+
