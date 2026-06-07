@@ -49,15 +49,16 @@ Projeto/
 ├── Docs/
 │   ├── clientes.json
 │   ├── feedbacks.json
-│   └── produtos.json
+│   ├── produtos.json
+|   └── prompt.text
 │
 ├── Tratamento_Dados/
 │   └── Feedbacks_clientes.xlsx
 │
 ├── Projeto_Final
 |   ├── README.md
-|   ├── Prompt
-│   └── Resultado_Analise.pdf
+|   ├── Prompt.md
+│   └── Resultado_Analise.md
 │
 ├── Visualizacao_Projetos/
 |   ├── Arquivos_json
