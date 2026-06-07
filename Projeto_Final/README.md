@@ -92,7 +92,7 @@ Permitir a identificação do perfil dos clientes e relacioná-los aos feedbacks
 | cidade        | Texto        | Cidade de residência           |
 | estado        | Texto        | Estado de residência           |
 | renda_mensal  | Decimal      | Renda mensal estimada          |
-| segmento      | Texto        |                                |
+| segmento      | Texto        | Venda direta de produtos       |
 | data_cadastro | Data         | Data de cadastro no banco      |
 
 ### Exemplo
@@ -132,7 +132,7 @@ Relacionar os feedbacks aos produtos utilizados pelos clientes.
 | taxa_juros      | Decimal      | Taxa de juros aplicada        |
 | tarifa_minimo   | Decimal      | Valor da tarifa mensal        |
 | tarifa_maximo   | Decimal      | Valor da tarifa mensal        |
-| parcelas_maximas|              |                               |
+| parcelas_maximas| Interiro     | Número máximo de parcelas     |
 
 ### Exemplo
 
@@ -166,7 +166,7 @@ Servir como principal fonte de análise para geração de insights.
 | id_feedback   | Inteiro      | Identificador do feedback       |
 | id_cliente    | Inteiro      | Cliente que realizou o feedback |
 | data          | Data         | Data do registro                |
-| canal         |              |                                 |
+| canal         | Texto        | Canal de atendimento            |
 | produto       | Inteiro      | Produto avaliado                |
 | nota          | Inteiro      | Nota atribuída pelo cliente     |
 | comentario    | Texto        | Comentário do cliente           |
