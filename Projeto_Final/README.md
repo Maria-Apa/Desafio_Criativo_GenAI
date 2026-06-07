@@ -200,7 +200,7 @@ Os arquivos JSON foram importados para o Power Query para realização das etapa
 * Tratamento de valores nulos;
 * Ajuste de formatos de datas;
 * Criação de relacionamentos lógicos;
-* Consolidação das informações em uma única base.
+* * Consolidação das informações em uma única base.
 
 ## Resultado
 
