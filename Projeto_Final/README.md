@@ -43,7 +43,29 @@ Utilizar Inteligência Artificial Generativa para analisar feedbacks de clientes
 
 # 📂 Estrutura do Projeto
 
-
+```text
+Projeto/
+│
+├── Docs/
+│   ├── clientes.json
+│   ├── feedbacks.json
+│   └── produtos.json
+│
+├── Tratamento_Dados/
+│   └── Feedbacks_clientes.xlsx
+│
+├── Projeto_Final
+|   ├── README.md
+|   ├── Prompt
+│   └── Resultado_Analise.pdf
+│
+├── Visualizacao_Projetos/
+|   ├── Arquivos_json
+│   ├── PowerQuery_Transformacoes
+|   └── Analise_ChatGPT
+|
+└── README.md
+```
 
 ---
 
