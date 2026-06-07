@@ -86,25 +86,28 @@ Permitir a identificação do perfil dos clientes e relacioná-los aos feedbacks
 | Campo         | Tipo de Dado | Descrição                      |
 | ------------- | ------------ | ------------------------------ |
 | id_cliente    | Inteiro      | Identificador único do cliente |
-| nome          | Texto        | Nome completo do cliente       |
+| nome_cliente  | Texto        | Nome completo do cliente       |
 | idade         | Inteiro      | Idade do cliente               |
-| genero        | Texto        | Gênero informado               |
-| estado_civil  | Texto        | Estado civil                   |
-| profissao     | Texto        | Profissão do cliente           |
-| renda_mensal  | Decimal      | Renda mensal estimada          |
+| sexo          | Texto        | Gênero informado               |
 | cidade        | Texto        | Cidade de residência           |
 | estado        | Texto        | Estado de residência           |
+| renda_mensal  | Decimal      | Renda mensal estimada          |
+| segmento      | Texto        |                                |
 | data_cadastro | Data         | Data de cadastro no banco      |
 
 ### Exemplo
 
 ```json
 {
-  "id_cliente": 1001,
-  "nome": "João Silva",
-  "idade": 35,
-  "profissao": "Engenheiro",
-  "renda_mensal": 8500
+"id_cliente": 1,
+"nome_cliente": "Ana Martins",
+"idade": 32,
+"sexo": "F",
+"cidade": "São Paulo",
+"estado": "SP",
+"data_cadastro": "2022-03-15",
+"segmento": "Varejo",
+"renda_mensal": 5500
 }
 ```
 
@@ -123,21 +126,26 @@ Relacionar os feedbacks aos produtos utilizados pelos clientes.
 | Campo           | Tipo de Dado | Descrição                     |
 | --------------- | ------------ | ----------------------------- |
 | id_produto      | Inteiro      | Identificador do produto      |
-| nome_produto    | Texto        | Nome do produto               |
+| produto         | Texto        | Nome do produto               |
 | categoria       | Texto        | Categoria do produto          |
 | descricao       | Texto        | Descrição resumida            |
 | taxa_juros      | Decimal      | Taxa de juros aplicada        |
-| tarifa_mensal   | Decimal      | Valor da tarifa mensal        |
-| data_lancamento | Data         | Data de lançamento do produto |
+| tarifa_minimo   | Decimal      | Valor da tarifa mensal        |
+| tarifa_maximo   | Decimal      | Valor da tarifa mensal        |
+| parcelas_maximas|              |                               |
 
 ### Exemplo
 
 ```json
 {
-  "id_produto": 201,
-  "nome_produto": "Cartão Platinum",
-  "categoria": "Cartão de Crédito",
-  "tarifa_mensal": 35.90
+"id_produto": 1,
+"produto": "Emprestimo FGTS",
+"categoria": "Emprestimo",
+"descricao": "Antecipação do saque-aniversário do FGTS.",
+"taxa_juros": "1,29% a 1,49% a.m",
+"valor_minimo": 100,
+"valor_maximo": 20000,
+"parcelas_maximas": 12
 }
 ```
 
@@ -157,22 +165,23 @@ Servir como principal fonte de análise para geração de insights.
 | ------------- | ------------ | ------------------------------- |
 | id_feedback   | Inteiro      | Identificador do feedback       |
 | id_cliente    | Inteiro      | Cliente que realizou o feedback |
-| id_produto    | Inteiro      | Produto avaliado                |
-| avaliacao     | Inteiro      | Nota atribuída pelo cliente     |
+| data          | Data         | Data do registro                |
+| canal         |              |                                 |
+| produto       | Inteiro      | Produto avaliado                |
+| nota          | Inteiro      | Nota atribuída pelo cliente     |
 | comentario    | Texto        | Comentário do cliente           |
-| data_feedback | Data         | Data do registro                |
-| sentimento    | Texto        | Classificação do sentimento     |
 
 ### Exemplo
 
 ```json
 {
-  "id_feedback": 5001,
-  "id_cliente": 1001,
-  "id_produto": 201,
-  "avaliacao": 3,
-  "comentario": "Aplicativo lento e limite abaixo do esperado.",
-  "sentimento": "Negativo"
+"id_feedback": 25,
+"id_cliente": 6,
+"data": "27/01/2026",
+"canal": "App",
+"produto": "Residencial",
+"nota": 5,
+"comentario": "Todo o processo foi muito bem explicado."
 }
 ```
 
