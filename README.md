@@ -97,13 +97,12 @@ Projeto/
 │
 ├── Projeto_Final
 |   ├── README.md
-|   ├── Prompt
-│   └── Resultado_Analise.pdf
+|   ├── Prompt.md
+│   └── Resultado_Analise.md
 │
 ├── Visualizacao_Projetos/
-|   ├── Arquivos_json
-│   ├── PowerQuery_Transformacoes
-|   └── Analise_ChatGPT
+│   ├── PowerQuery_Transformacoes.md
+|   └── Analise_ChatGPT.md
 |
 └── README.md
 ```
