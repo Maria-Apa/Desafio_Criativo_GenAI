@@ -61,7 +61,6 @@ Projeto/
 │   └── Resultado_Analise.md
 │
 ├── Visualizacao_Projetos/
-|   ├── Arquivos_json
 │   ├── PowerQuery_Transformacoes
 |   └── Analise_ChatGPT
 |
